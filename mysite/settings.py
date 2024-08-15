@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5*x&rwtek^5n+q+==slb!gbw1w%+bd+a9zoc1@(ldl9eed7le#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.railway.app']
+ALLOWED_HOSTS = ['your-app.onrender.com']
 
 
 # Application definition
@@ -81,6 +81,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
 
 
 # Password validation
